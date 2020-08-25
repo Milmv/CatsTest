@@ -1,0 +1,90 @@
+.catalog__card:hover {
+  span {
+    color: #d91667;
+    border-bottom: 1px dashed #d91667;
+  }
+  .pentagon-wrapper {
+    background: #d91667;
+    .badge {
+      background: #d91667;
+    }
+  }
+}
+.catalog__card {
+  box-sizing: border-box;
+  margin-top: 40px;
+  @media (min-width: 768px) {
+    margin-top: 35px;
+  }
+  @media (min-width: 1240px) {
+    margin-top: 0px;
+  }
+}
+.pentagon-wrapper {
+  width: 260px;
+  height: 420px;
+  -webkit-clip-path: polygon(0 12%, 18% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 12%, 18% 0, 100% 0, 100% 100%, 0% 100%);
+  background: #1698d9;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 4px;
+  &:hover {
+    background: #d91667;
+    .badge {
+      background: #d91667;
+    }
+  }
+  &.active {
+    background: #d91667;
+    .badge {
+      background: #d91667;
+    }
+  }
+  &.disabled {
+    background: #b3b3b3 !important;
+    .pentagon {
+      opacity: 0.6;
+    }
+    .badge {
+      background: #b3b3b3 !important;
+    }
+  }
+  @media (min-width: 768px) {
+    width: 300px;
+    height: 460px;
+  }
+  @media (min-width: 1240px) {
+    width: 320px;
+    height: 480px;
+  }
+}
+.pentagon {
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(0 12%, 18% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 12%, 18% 0, 100% 0, 100% 100%, 0% 100%);
+  background-image: url(../../assets/img/Photo.svg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 15px 10px 10px 35px;
+  @media (min-width: 768px) {
+    padding: 15px 15px 15px 40px;
+  }
+  @media (min-width: 1240px) {
+    padding: 20px 20px 20px 50px;
+  }
+}
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card div:last-child {
+  margin-left: auto;
+}

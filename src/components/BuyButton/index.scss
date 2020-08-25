@@ -1,0 +1,25 @@
+.buyButton {
+  color: white;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: start;
+  margin-top: 14px;
+  word-wrap: break-word;
+  text-align: center;
+  span {
+    color: #1698d9;
+    border-bottom: 1px dashed #1698d9;
+  }
+  &:hover {
+    span {
+      color: #d91667;
+      border-bottom: 1px dashed #d91667;
+    }
+  }
+  &.disabled {
+    color: #ffff66;
+  }
+  @media (min-width: 1240px) {
+    font-size: 13px;
+  }
+}

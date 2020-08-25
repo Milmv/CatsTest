@@ -1,0 +1,36 @@
+.badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #1698d9;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px;
+  &__category {
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__size {
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  @media (min-width: 768px) {
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    font-size: 30px;
+    line-height: 22px;
+  }
+  @media (min-width: 1240px) {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    font-size: 32px;
+    line-height: 22px;
+  }
+}

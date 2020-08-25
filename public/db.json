@@ -1,0 +1,50 @@
+{
+  "title": "Ты сегодня покормил кота ?",
+  "content": [
+    {
+      "id": 1,
+      "topTitle": "Сказочное заморское явство",
+      "title": "Нямушка",
+      "subTitle": "с фуа-гра",
+      "types": "10 порций",
+      "present": "5 мышей",
+      "size": "0,5",
+      "category": "кг",
+      "buttonText": "Чего сидишь? Порадуй котэ, ",
+      "ClassNames": "active",
+      "selected": {
+        "buttonText": "Печень утки разварная с артишоками"
+      }
+    },
+    {
+      "id": 2,
+      "topTitle": "Сказочное заморское явство",
+      "title": "Нямушка",
+      "subTitle": "с рыбой",
+      "types": "40 порций",
+      "present": "5 мышей",
+      "size": "2",
+      "category": "кг",
+      "buttonText": "Чего сидишь? Порадуй котэ, ",
+      "ClassNames": "active",
+      "selected": {
+        "buttonText": "Головы щучьи с чесноком да свежайшая семгушка"
+      }
+    },
+    {
+      "id": 3,
+      "topTitle": "Сказочное заморское явство",
+      "title": "Нямушка",
+      "subTitle": "с курой",
+      "types": "100 порций",
+      "present": "5 мышей",
+      "size": "5",
+      "category": "кг",
+      "buttonText": "Чего сидишь? Порадуй котэ, ",
+      "ClassNames": "disabled",
+      "selected": {
+        "buttonText": "Печалька, с курой закончился"
+      }
+    }
+  ]
+}
